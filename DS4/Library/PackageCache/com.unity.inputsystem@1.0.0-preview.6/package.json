@@ -1,0 +1,103 @@
+{
+  "name": "com.unity.inputsystem",
+  "displayName": "Input System",
+  "version": "1.0.0-preview.6",
+  "unity": "2019.1",
+  "repository": {
+    "footprint": "c0e72206c968a3983f445711b4cca00b8e98f91c",
+    "type": "git",
+    "url": "https://github.com/Unity-Technologies/InputSystem.git",
+    "revision": "7320077bdaa48fb7d63edaa66a246694a96a6bb7"
+  },
+  "description": "A new input system which can be used as a more extensible and customizable alternative to Unity's classic input system in UnityEngine.Input.",
+  "keywords": [
+    "input",
+    "events",
+    "keyboard",
+    "mouse",
+    "gamepad",
+    "touch",
+    "vr",
+    "xr"
+  ],
+  "dependencies": {
+    "com.unity.ugui": "1.0.0"
+  },
+  "samples": [
+    {
+      "displayName": "Custom Binding Composite",
+      "description": "Shows how to implement a custom composite binding.",
+      "path": "Samples~/CustomComposite"
+    },
+    {
+      "displayName": "Custom Device",
+      "description": "Shows how to implement a custom input device.",
+      "path": "Samples~/CustomDevice"
+    },
+    {
+      "displayName": "Custom Device Usages",
+      "description": "Shows how to tag devices with custom usage strings that can be used, for example, to distinguish multiple instances of the same type of device (e.g. 'Gamepad') based on how the device is used (e.g. 'Player1' vs 'Player2' or 'LeftHand' vs 'RightHand').",
+      "path": "Samples~/CustomDeviceUsages"
+    },
+    {
+      "displayName": "EditorWindow Demo",
+      "description": "A simple example of how to use the input system from within EditorWindow code.",
+      "path": "Samples~/EditorWindowDemo"
+    },
+    {
+      "displayName": "Gamepad Mouse Cursor",
+      "description": "An example that shows how to use the gamepad for driving a mouse cursor for use with UIs.",
+      "path": "Samples~/GamepadMouseCursor"
+    },
+    {
+      "displayName": "In-Game Hints",
+      "description": "Demonstrates how to create in-game hints in the UI which reflect current bindings and active control schemes.",
+      "path": "Samples~/InGameHints"
+    },
+    {
+      "displayName": "InputDeviceTester",
+      "description": "A scene containing UI to visualize the controls on various supported input devices.",
+      "path": "Samples~/InputDeviceTester"
+    },
+    {
+      "displayName": "Input Recorder",
+      "description": "Shows how to capture and replay input events. Also useful by itself to debug input event sequences.",
+      "path": "Samples~/InputRecorder"
+    },
+    {
+      "displayName": "On-Screen Controls",
+      "description": "Demonstrates a simple setup for an on-screen joystick.",
+      "path": "Samples~/OnScreenControls"
+    },
+    {
+      "displayName": "Rebinding UI",
+      "description": "An example UI component that demonstrates how to create UI for rebinding actions.",
+      "path": "Samples~/RebindingUI"
+    },
+    {
+      "displayName": "Simple Demo",
+      "description": "A walkthrough of a simple character controller that demonstrates several techniques for working with the input system. See the README.md file in the sample for details.",
+      "path": "Samples~/SimpleDemo"
+    },
+    {
+      "displayName": "Simple Multiplayer",
+      "description": "Demonstrates how to set up a simple local multiplayer scenario.",
+      "path": "Samples~/SimpleMultiplayer"
+    },
+    {
+      "displayName": "Tanks Demo",
+      "description": "The Unity Tanks demo game, converted to using the Input System package, and with a custom input binding screen. This sample is not actually part of the package, but needs to be downloaded.",
+      "path": "Samples~/TanksDemo"
+    },
+    {
+      "displayName": "Touch Samples",
+      "description": "A series of sample scenes for using touch input with the Input System package. This sample is not actually part of the package, but needs to be downloaded.",
+      "path": "Samples~/TouchSamples"
+    },
+    {
+      "displayName": "Visualizers",
+      "description": "Several example visualizations of input controls/devices and input actions.",
+      "path": "Samples~/Visualizers"
+    }
+  ]
+}
